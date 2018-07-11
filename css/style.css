@@ -2124,28 +2124,28 @@ a.pswp__share--download:hover {
 
 .contacts__address {
   padding-left: 35px;
-  background: url(/images/box16.png?6ede1e06855d83262c316c64bd9086d1) no-repeat;
+  background: url(../images/box16.png) no-repeat;
   background-position: 0 30%;
   margin-bottom: 2rem;
 }
 
 .contacts__mail {
   padding-left: 35px;
-  background: url(/images/box15.png?2192e30444c9f69165b89501a5c3d161) no-repeat;
+  background: url(../images/box15.png) no-repeat;
   background-position: 0 0;
   margin-bottom: 2rem;
 }
 
 .contacts__clock {
   padding-left: 35px;
-  background: url(/images/box21.png?7194028c17577dadf1f8c9f2c9689b6b) no-repeat;
+  background: url(../images/box21.png) no-repeat;
   background-position: 0 0;
   margin-bottom: 2rem;
 }
 
 .contacts__tel {
   padding-left: 35px;
-  background: url(/images/box14.png?0c54379ecb58a663449638a7f118f3c2) no-repeat;
+  background: url(../images/box14.png) no-repeat;
   background-position: 0 0;
   margin-bottom: 2rem;
 }
@@ -2565,11 +2565,6 @@ a.pswp__share--download:hover {
 }
 
 .vacancies__grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  grid-gap: 12rem;
   margin-bottom: 7rem;
 }
 
@@ -2589,6 +2584,39 @@ a.pswp__share--download:hover {
 
 .vacancies__link {
   font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .vacancies__advantage {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .vacancies__advantage:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 501px) {
+  .vacancies__grid {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 12rem;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 800px) {
+  .vacancies__grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 801px) {
+  .vacancies__grid {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .about {
