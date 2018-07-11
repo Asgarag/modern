@@ -139,8 +139,7 @@ a {
   text-transform: uppercase;
 }
 
-.button--purple:hover,
-.button--purple:focus {
+.button--purple:hover, .button--purple:focus {
   background: #21185b;
   -webkit-box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.25);
@@ -151,8 +150,7 @@ a {
   color: #fff;
 }
 
-.button--light-purple:hover,
-.button--light-purple:focus {
+.button--light-purple:hover, .button--light-purple:focus {
   background: #7363ab;
   -webkit-box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.25);
@@ -163,8 +161,7 @@ a {
   color: #2e2483;
 }
 
-.button--blue:hover,
-.button--blue:focus {
+.button--blue:hover, .button--blue:focus {
   border-color: #20195b;
   -webkit-box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.25);
@@ -188,7 +185,7 @@ a {
 .titlebox {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background: url(../images/background.png) no-repeat;
+  background: url("../images/background.png") no-repeat;
   background-size: cover;
 }
 
@@ -224,8 +221,7 @@ a {
   text-decoration: underline;
 }
 
-.link:hover,
-.link:focus {
+.link:hover, .link:focus {
   text-decoration: none;
 }
 
@@ -257,14 +253,13 @@ a {
   margin-bottom: 1rem;
 }
 
-.header__contacts-tel:hover,
-.header__contacts-tel:focus {
+.header__contacts-tel:hover, .header__contacts-tel:focus {
   opacity: .7;
 }
 
 .header__contacts-tels {
   position: relative;
-  background: url(../images/box14.png) no-repeat;
+  background: url("../images/icon/box14.png") no-repeat;
 }
 
 .header__contacts-tels::after {
@@ -286,8 +281,7 @@ a {
   text-decoration: underline;
 }
 
-.header__contacts-button:hover,
-.header__contacts-button:focus {
+.header__contacts-button:hover, .header__contacts-button:focus {
   text-decoration: none;
 }
 
@@ -299,13 +293,11 @@ a {
   .header__container {
     padding-top: 4rem;
   }
-
   .header__contacts-tels {
     padding-bottom: 3rem;
     margin-bottom: 3rem;
     background-position-x: 20%;
   }
-
   .header__contacts-tels::after {
     left: 50%;
     bottom: 0;
@@ -314,7 +306,6 @@ a {
     width: 200px;
     height: 2px;
   }
-
   .header__contacts-address {
     margin-left: auto;
     margin-right: auto;
@@ -326,7 +317,6 @@ a {
     padding-right: 3rem;
     margin-right: 4rem;
   }
-
   .header__contacts-tels::after {
     right: 0;
     top: 50%;
@@ -335,7 +325,6 @@ a {
     width: 2px;
     height: 80px;
   }
-
   .header__contacts {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -349,7 +338,6 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .header__contacts-tels {
     padding-left: 3rem;
   }
@@ -360,11 +348,9 @@ a {
     text-align: center;
     padding-top: 4rem;
   }
-
   .header__logobox {
     margin-bottom: 3rem;
   }
-
   .header__logo {
     margin-left: auto;
     margin-right: auto;
@@ -381,11 +367,9 @@ a {
             justify-content: space-between;
     padding-top: 7rem;
   }
-
   .header__button {
     display: none;
   }
-
   .header__contacts-tels {
     padding-left: 5rem;
   }
@@ -436,32 +420,25 @@ a {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-
   .menu__list--active {
     left: 0;
   }
-
   .menu__list-item:first-child {
     height: 40px;
     position: relative;
   }
-
   .menu__list-item:not(:first-child):not(:last-child) {
     border-bottom: 2px solid #fff;
   }
-
   .menu__link {
     display: block;
     font-size: 1.8rem;
     color: #fff;
   }
-
-  .menu__link:hover,
-  .menu__link:focus {
+  .menu__link:hover, .menu__link:focus {
     background-color: #fff;
     color: #2f2383;
   }
-
   .menu__close {
     position: absolute;
     right: 10px;
@@ -474,13 +451,10 @@ a {
     transition: transform .2s;
     transition: transform .2s, -webkit-transform .2s;
   }
-
   .menu__close:focus {
     outline: none;
   }
-
-  .menu__close::after,
-  .menu__close::before {
+  .menu__close::after, .menu__close::before {
     content: "";
     position: absolute;
     width: 22px;
@@ -489,19 +463,15 @@ a {
     top: 11px;
     right: 0;
   }
-
   .menu__close::before {
     -webkit-transform: rotate(45deg);
             transform: rotate(45deg);
   }
-
   .menu__close::after {
     -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
   }
-
-  .menu__close:hover,
-  .menu__close:focus {
+  .menu__close:hover, .menu__close:focus {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
@@ -514,7 +484,6 @@ a {
     display: flex;
     margin-right: 3rem;
   }
-
   .menu__list-item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -523,15 +492,12 @@ a {
         -ms-flex-align: center;
             align-items: center;
   }
-
   .menu__list-item:not(:last-child) {
     margin-right: .5rem;
   }
-
   .menu__list-item:first-child {
     display: none;
   }
-
   .menu__link {
     color: #000;
     font-size: 1.4rem;
@@ -539,9 +505,7 @@ a {
     border-bottom: 3px solid #fff;
     border-radius: 2px;
   }
-
-  .menu__link:hover,
-  .menu__link:focus {
+  .menu__link:hover, .menu__link:focus {
     border-top: 3px solid #9084be;
     border-bottom: 3px solid #ae2602;
     background-image: -webkit-gradient(linear, left bottom, left top, from(#ae2602), to(#9084be)), -webkit-gradient(linear, left bottom, left top, from(#ae2602), to(#9084be));
@@ -630,8 +594,7 @@ a {
   text-decoration: none;
 }
 
-.breadcrumbs__link:hover,
-.breadcrumbs__link:focus {
+.breadcrumbs__link:hover, .breadcrumbs__link:focus {
   opacity: .7;
 }
 
@@ -651,7 +614,7 @@ a {
 .preview {
   padding-top: 9.5rem;
   padding-bottom: 9.5rem;
-  background: url(../images/background.png) no-repeat;
+  background: url("../images/background.png") no-repeat;
   background-size: cover;
 }
 
@@ -687,11 +650,9 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
-
   .preview__product:not(:last-child) {
     margin-bottom: 4rem;
   }
-
   .preview__slogan {
     font-size: 3rem;
   }
@@ -705,7 +666,6 @@ a {
     -ms-grid-columns: 150px 150px 150px;
         grid-template-columns: 150px 150px 150px;
   }
-
   .preview__slogan {
     font-size: 4.8rem;
   }
@@ -716,12 +676,10 @@ a {
     margin-bottom: 5rem;
     text-align: center;
   }
-
   .preview__slogan {
     margin-left: auto;
     margin-right: auto;
   }
-
   .preview__grid {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -800,7 +758,7 @@ a {
 
 .advantages__container {
   padding-top: 9rem;
-  background: url(../images/back_box.png) no-repeat, #2f2383;
+  background: url("../images/back_box.png") no-repeat, #2f2383;
   background-position-x: 50%;
   background-size: cover;
   color: #fff;
@@ -852,7 +810,6 @@ a {
   .advantages__item:not(:last-child) {
     margin-bottom: 5rem;
   }
-
   .advantages__container {
     padding-bottom: 5rem;
   }
@@ -864,7 +821,6 @@ a {
     display: grid;
     grid-gap: 7rem;
   }
-
   .advantages__container {
     padding-bottom: 15rem;
   }
@@ -881,11 +837,9 @@ a {
   .advantages__background {
     display: none;
   }
-
   .advantages__footer-img {
     display: none;
   }
-
   .advantages__footer-description {
     margin-left: auto;
     margin-right: auto;
@@ -898,14 +852,12 @@ a {
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-
   .advantages__footer-description {
     margin-left: 40%;
   }
 }
 
 /*! PhotoSwipe Default UI CSS by Dmitry Semenov | photoswipe.com | MIT license */
-
 /*
 
 	Contents:
@@ -918,15 +870,12 @@ a {
 	6. Additional styles (root element, top bar, idle state, hidden state, etc.)
 
 */
-
 /*
 	
 	1. Buttons
 
  */
-
 /* <button> css reset */
-
 .pswp__button {
   width: 44px;
   height: 44px;
@@ -947,8 +896,7 @@ a {
   box-shadow: none;
 }
 
-.pswp__button:focus,
-.pswp__button:hover {
+.pswp__button:focus, .pswp__button:hover {
   opacity: 1;
 }
 
@@ -963,7 +911,6 @@ a {
 }
 
 /* pswp__ui--over-close class it added when mouse is over element that should close gallery */
-
 .pswp__ui--over-close .pswp__button--close {
   opacity: 1;
 }
@@ -971,7 +918,7 @@ a {
 .pswp__button,
 .pswp__button--arrow--left:before,
 .pswp__button--arrow--right:before {
-  background: url(../images/default-skin.png) 0 0 no-repeat;
+  background: url("../images/default-skin.png") 0 0 no-repeat;
   background-size: 264px 88px;
   width: 44px;
   height: 44px;
@@ -979,13 +926,11 @@ a {
 
 @media (-webkit-min-device-pixel-ratio: 1.1), (-webkit-min-device-pixel-ratio: 1.09375), (min-resolution: 105dpi), (min-resolution: 1.1dppx) {
   /* Serve SVG sprite if browser supports SVG and resolution is more than 105dpi */
-
   .pswp--svg .pswp__button,
   .pswp--svg .pswp__button--arrow--left:before,
   .pswp--svg .pswp__button--arrow--right:before {
-    background-image: url(../images/default-skin.png);
+    background-image: url("../images/default-skin.png");
   }
-
   .pswp--svg .pswp__button--arrow--left,
   .pswp--svg .pswp__button--arrow--right {
     background: none;
@@ -1026,7 +971,6 @@ a {
 }
 
 /* no arrows on touch screens */
-
 .pswp--touch .pswp__button--arrow--left,
 .pswp--touch .pswp__button--arrow--right {
   visibility: hidden;
@@ -1036,7 +980,6 @@ a {
 	Arrow buttons hit area
 	(icon is added to :before pseudo-element)
 */
-
 .pswp__button--arrow--left,
 .pswp__button--arrow--right {
   background: none;
@@ -1080,7 +1023,6 @@ a {
 	2. Share modal/popup and links
 
  */
-
 .pswp__counter,
 .pswp__share-modal {
   -webkit-user-select: none;
@@ -1164,7 +1106,6 @@ a {
 }
 
 /* increase size of share links on touch devices */
-
 .pswp--touch .pswp__share-tooltip a {
   padding: 16px 12px;
 }
@@ -1212,7 +1153,6 @@ a.pswp__share--download:hover {
 	3. Index indicator ("1 of X" counter)
 
  */
-
 .pswp__counter {
   position: absolute;
   left: 0;
@@ -1230,7 +1170,6 @@ a.pswp__share--download:hover {
 	4. Caption
 
  */
-
 .pswp__caption {
   position: absolute;
   left: 0;
@@ -1259,7 +1198,6 @@ a.pswp__share--download:hover {
 }
 
 /* Fake caption element, used to calculate height of next/prev image */
-
 .pswp__caption--fake {
   visibility: hidden;
 }
@@ -1271,7 +1209,6 @@ a.pswp__share--download:hover {
 	You can play with it here - http://codepen.io/dimsemenov/pen/yyBWoR
 
  */
-
 .pswp__preloader {
   width: 44px;
   height: 44px;
@@ -1298,7 +1235,7 @@ a.pswp__share--download:hover {
 
 .pswp__preloader--active .pswp__preloader__icn {
   /* We use .gif in browsers that don't support CSS animation */
-  background: url(../images/preloader.gif) 0 0 no-repeat;
+  background: url("../images/preloader.gif") 0 0 no-repeat;
 }
 
 .pswp--css_animation .pswp__preloader--active {
@@ -1368,7 +1305,6 @@ a.pswp__share--download:hover {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -1380,7 +1316,6 @@ a.pswp__share--download:hover {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
-
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -1392,12 +1327,10 @@ a.pswp__share--download:hover {
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
-
   50% {
     -webkit-transform: rotate(-140deg);
     transform: rotate(-140deg);
   }
-
   100% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -1409,12 +1342,10 @@ a.pswp__share--download:hover {
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
-
   50% {
     -webkit-transform: rotate(-140deg);
     transform: rotate(-140deg);
   }
-
   100% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
@@ -1426,9 +1357,7 @@ a.pswp__share--download:hover {
 	6. Additional styles
 
  */
-
 /* root element of UI */
-
 .pswp__ui {
   -webkit-font-smoothing: auto;
   visibility: visible;
@@ -1437,7 +1366,6 @@ a.pswp__share--download:hover {
 }
 
 /* top black bar with buttons and "1 of X" indicator */
-
 .pswp__top-bar {
   position: absolute;
   left: 0;
@@ -1457,7 +1385,6 @@ a.pswp__share--download:hover {
 }
 
 /* pswp--has_mouse class is added only when two subsequent mousemove events occur */
-
 .pswp--has_mouse .pswp__button--arrow--left,
 .pswp--has_mouse .pswp__button--arrow--right {
   visibility: visible;
@@ -1469,14 +1396,12 @@ a.pswp__share--download:hover {
 }
 
 /* pswp__ui--fit class is added when main image "fits" between top bar and bottom bar (caption) */
-
 .pswp__ui--fit .pswp__top-bar,
 .pswp__ui--fit .pswp__caption {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* pswp__ui--idle class is added when mouse isn't moving for several seconds (JS option timeToIdle) */
-
 .pswp__ui--idle .pswp__top-bar {
   opacity: 0;
 }
@@ -1490,7 +1415,6 @@ a.pswp__share--download:hover {
 	pswp__ui--hidden class is added when controls are hidden
 	e.g. when user taps to toggle visibility of controls
 */
-
 .pswp__ui--hidden .pswp__top-bar,
 .pswp__ui--hidden .pswp__caption,
 .pswp__ui--hidden .pswp__button--arrow--left,
@@ -1500,7 +1424,6 @@ a.pswp__share--download:hover {
 }
 
 /* pswp__ui--one-slide class is added when there is just one item in gallery */
-
 .pswp__ui--one-slide .pswp__button--arrow--left,
 .pswp__ui--one-slide .pswp__button--arrow--right,
 .pswp__ui--one-slide .pswp__counter {
@@ -1516,13 +1439,10 @@ a.pswp__share--download:hover {
 }
 
 /*! PhotoSwipe main CSS by Dmitry Semenov | photoswipe.com | MIT license */
-
 /*
 	Styles for basic PhotoSwipe functionality (sliding area, open/close transitions)
 */
-
 /* pswp = photoswipe */
-
 .pswp {
   display: none;
   position: absolute;
@@ -1550,7 +1470,6 @@ a.pswp__share--download:hover {
 }
 
 /* style is added when JS option showHideOpacity is set to true */
-
 .pswp--animate_opacity {
   /* 0.001, because opacity:0 doesn't trigger Paint action, which causes lag at start of transition */
   opacity: 0.001;
@@ -1589,7 +1508,6 @@ a.pswp__share--download:hover {
 	Background is added as a separate element.
 	As animating opacity is much faster than animating rgba() background-color.
 */
-
 .pswp__bg {
   position: absolute;
   left: 0;
@@ -1625,7 +1543,6 @@ a.pswp__share--download:hover {
 }
 
 /* Prevent selection and tap highlights */
-
 .pswp__container,
 .pswp__img {
   -webkit-user-select: none;
@@ -1687,7 +1604,6 @@ a.pswp__share--download:hover {
 	stretched thumbnail or div placeholder element (see below)
 	style is added to avoid flickering in webkit/blink when layers overlap
 */
-
 .pswp__img--placeholder {
   -webkit-backface-visibility: hidden;
 }
@@ -1696,7 +1612,6 @@ a.pswp__share--download:hover {
 	div element that matches size of large image
 	large image loads on top of it
 */
-
 .pswp__img--placeholder--blank {
   background: #222;
 }
@@ -1712,7 +1627,6 @@ a.pswp__share--download:hover {
 	Error message appears when image is not loaded
 	(JS option errorMsg controls markup)
 */
-
 .pswp__error-msg {
   position: absolute;
   left: 0;
@@ -1838,7 +1752,6 @@ a.pswp__share--download:hover {
 }
 
 /* No Js */
-
 .no-js .owl-carousel {
   display: block;
 }
@@ -1846,7 +1759,6 @@ a.pswp__share--download:hover {
 /*
  *  Owl Carousel - Animate Plugin
  */
-
 .owl-carousel .animated {
   -webkit-animation-duration: 1000ms;
           animation-duration: 1000ms;
@@ -1871,7 +1783,6 @@ a.pswp__share--download:hover {
   0% {
     opacity: 1;
   }
-
   100% {
     opacity: 0;
   }
@@ -1881,7 +1792,6 @@ a.pswp__share--download:hover {
   0% {
     opacity: 1;
   }
-
   100% {
     opacity: 0;
   }
@@ -1890,7 +1800,6 @@ a.pswp__share--download:hover {
 /*
  * 	Owl Carousel - Auto Height Plugin
  */
-
 .owl-height {
   -webkit-transition: height 500ms ease-in-out;
   transition: height 500ms ease-in-out;
@@ -1899,7 +1808,6 @@ a.pswp__share--download:hover {
 /*
  * 	Owl Carousel - Lazy Load Plugin
  */
-
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
   -webkit-transition: opacity 400ms ease;
@@ -1914,7 +1822,6 @@ a.pswp__share--download:hover {
 /*
  * 	Owl Carousel - Video Plugin
  */
-
 .owl-carousel .owl-video-wrapper {
   position: relative;
   height: 100%;
@@ -1978,7 +1885,7 @@ a.pswp__share--download:hover {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  background: url(../images/left-arrow-sl.png);
+  background: url("../images/icon/left-arrow-sl.png");
   background-size: cover;
   -webkit-transition: -webkit-transform .4s;
   transition: -webkit-transform .4s;
@@ -1986,8 +1893,7 @@ a.pswp__share--download:hover {
   transition: transform .4s, -webkit-transform .4s;
 }
 
-.owl-prev:hover,
-.owl-prev:focus {
+.owl-prev:hover, .owl-prev:focus {
   outline: none;
   -webkit-transform: translate(-5px, -50%);
           transform: translate(-5px, -50%);
@@ -2001,7 +1907,7 @@ a.pswp__share--download:hover {
           transform: translateY(-50%);
   width: 15px;
   height: 33px;
-  background: url(../images/right-arrow-sl.png);
+  background: url("../images/icon/right-arrow-sl.png");
   background-size: cover;
   -webkit-transition: -webkit-transform .4s;
   transition: -webkit-transform .4s;
@@ -2009,8 +1915,7 @@ a.pswp__share--download:hover {
   transition: transform .4s, -webkit-transform .4s;
 }
 
-.owl-next:hover,
-.owl-next:focus {
+.owl-next:hover, .owl-next:focus {
   outline: none;
   -webkit-transform: translate(5px, -50%);
           transform: translate(5px, -50%);
@@ -2124,28 +2029,28 @@ a.pswp__share--download:hover {
 
 .contacts__address {
   padding-left: 35px;
-  background: url(../images/box16.png) no-repeat;
+  background: url("../images/icon/box16.png") no-repeat;
   background-position: 0 30%;
   margin-bottom: 2rem;
 }
 
 .contacts__mail {
   padding-left: 35px;
-  background: url(../images/box15.png) no-repeat;
+  background: url("../images/icon/box15.png") no-repeat;
   background-position: 0 0;
   margin-bottom: 2rem;
 }
 
 .contacts__clock {
   padding-left: 35px;
-  background: url(../images/box21.png) no-repeat;
+  background: url("../images/icon/box21.png") no-repeat;
   background-position: 0 0;
   margin-bottom: 2rem;
 }
 
 .contacts__tel {
   padding-left: 35px;
-  background: url(../images/box14.png) no-repeat;
+  background: url("../images/icon/box14.png") no-repeat;
   background-position: 0 0;
   margin-bottom: 2rem;
 }
@@ -2183,7 +2088,6 @@ a.pswp__share--download:hover {
   .contacts__container {
     margin-bottom: 5rem;
   }
-
   .contacts__form {
     padding: 7%;
   }
@@ -2197,14 +2101,13 @@ a.pswp__share--download:hover {
         grid-template-columns: 1fr 1fr;
     grid-gap: 11rem;
   }
-
   .contacts__form {
     padding: 4rem 10rem;
   }
 }
 
 .addinfo {
-  background: url(../images/back_box.png) no-repeat, #2f2383;
+  background: url("../images/back_box.png") no-repeat, #2f2383;
   background-position: 50%;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -2315,7 +2218,6 @@ a.pswp__share--download:hover {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -2325,7 +2227,6 @@ a.pswp__share--download:hover {
   0% {
     opacity: 0;
   }
-
   100% {
     opacity: 1;
   }
@@ -2341,22 +2242,12 @@ a.pswp__share--download:hover {
 }
 
 .subscription {
-  padding: 1.5rem 18rem 1rem 7rem;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background: url(../images/back_modal.png) no-repeat, #fff;
-  background-position: 102% 20%;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .subscription__close {
   position: absolute;
   right: 17px;
-  top: 3px;
   text-indent: -9999px;
   width: 37px;
   height: 35px;
@@ -2370,8 +2261,7 @@ a.pswp__share--download:hover {
   outline: none;
 }
 
-.subscription__close::after,
-.subscription__close::before {
+.subscription__close::after, .subscription__close::before {
   content: "";
   position: absolute;
   width: 39px;
@@ -2391,8 +2281,7 @@ a.pswp__share--download:hover {
           transform: rotate(-45deg);
 }
 
-.subscription__close:hover,
-.subscription__close:focus {
+.subscription__close:hover, .subscription__close:focus {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -2400,14 +2289,6 @@ a.pswp__share--download:hover {
 .subscription__checkbox {
   border: 3px solid #dddddd;
   background: #fff;
-}
-
-.subscription__container {
-  max-width: 400px;
-}
-
-.subscription__form {
-  max-width: 350px;
 }
 
 .subscription__slogan {
@@ -2434,6 +2315,44 @@ a.pswp__share--download:hover {
 
 .subscription__link {
   font-size: 1.4rem;
+}
+
+@media (max-width: 900px) {
+  .subscription {
+    padding: 5rem;
+    background-color: #fff;
+    position: relative;
+  }
+  .subscription__close {
+    top: 11px;
+  }
+  .subscription__container {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 901px) {
+  .subscription {
+    padding: 1.5rem 16rem 1rem 7rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: url("../images/back_modal.png") no-repeat, #fff;
+    background-position: 102% 20%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .subscription__close {
+    top: 3px;
+  }
+  .subscription__container {
+    max-width: 400px;
+    margin-right: 2rem;
+  }
+  .subscription__form {
+    max-width: 350px;
+  }
 }
 
 .callback {
@@ -2468,8 +2387,7 @@ a.pswp__share--download:hover {
   outline: none;
 }
 
-.callback__close::after,
-.callback__close::before {
+.callback__close::after, .callback__close::before {
   content: "";
   position: absolute;
   width: 27px;
@@ -2489,8 +2407,7 @@ a.pswp__share--download:hover {
           transform: rotate(-45deg);
 }
 
-.callback__close:hover,
-.callback__close:focus {
+.callback__close:hover, .callback__close:focus {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
@@ -2531,8 +2448,7 @@ a.pswp__share--download:hover {
   font-weight: 300;
 }
 
-.form-feedback__link:hover,
-.form-feedback__link:focus {
+.form-feedback__link:hover, .form-feedback__link:focus {
   text-decoration: none;
 }
 
@@ -2591,7 +2507,6 @@ a.pswp__share--download:hover {
     margin-left: auto;
     margin-right: auto;
   }
-
   .vacancies__advantage:not(:last-child) {
     margin-bottom: 4rem;
   }
@@ -2720,7 +2635,6 @@ a.pswp__share--download:hover {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
@@ -2730,7 +2644,6 @@ a.pswp__share--download:hover {
   from {
     opacity: 0;
   }
-
   to {
     opacity: 1;
   }
@@ -2747,7 +2660,6 @@ a.pswp__share--download:hover {
     -webkit-transform: translate3d(-100%, 0, 0);
             transform: translate3d(-100%, 0, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2761,7 +2673,6 @@ a.pswp__share--download:hover {
     -webkit-transform: translate3d(-100%, 0, 0);
             transform: translate3d(-100%, 0, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2780,7 +2691,6 @@ a.pswp__share--download:hover {
     -webkit-transform: translate3d(100%, 0, 0);
             transform: translate3d(100%, 0, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2794,7 +2704,6 @@ a.pswp__share--download:hover {
     -webkit-transform: translate3d(100%, 0, 0);
             transform: translate3d(100%, 0, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2813,7 +2722,6 @@ a.pswp__share--download:hover {
     -webkit-transform: translate3d(0, 100%, 0);
             transform: translate3d(0, 100%, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2827,7 +2735,6 @@ a.pswp__share--download:hover {
     -webkit-transform: translate3d(0, 100%, 0);
             transform: translate3d(0, 100%, 0);
   }
-
   to {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
@@ -2846,7 +2753,6 @@ a.pswp__share--download:hover {
             transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
-
   to {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -2859,7 +2765,6 @@ a.pswp__share--download:hover {
             transform: translate3d(-100%, 0, 0);
     visibility: visible;
   }
-
   to {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -2877,7 +2782,6 @@ a.pswp__share--download:hover {
             transform: translate3d(100%, 0, 0);
     visibility: visible;
   }
-
   to {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -2890,7 +2794,6 @@ a.pswp__share--download:hover {
             transform: translate3d(100%, 0, 0);
     visibility: visible;
   }
-
   to {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -2908,7 +2811,6 @@ a.pswp__share--download:hover {
             transform: translate3d(0, 100%, 0);
     visibility: visible;
   }
-
   to {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -2921,7 +2823,6 @@ a.pswp__share--download:hover {
             transform: translate3d(0, 100%, 0);
     visibility: visible;
   }
-
   to {
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -2940,4 +2841,3 @@ a.pswp__share--download:hover {
 .animate__overflow-hidden {
   overflow-x: hidden;
 }
-
